@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&family=Roboto:wght@300&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+
+    <style>
+    a{
+        text-decoration: none;
+    }
+    .banner{
+        font-size: 37px;
+        text-align: center;
+        margin: 15px 0px;
+    }
+    .container{
+        width:70%;
+    }
+    th,td{
+        border: 1px solid gray;
+        border-radius: 10px;
+        box-shadow: 2px 3px 6px rgb(0 0 0 / 16%);    
+        background-color: #fff;
+        position: relative;
+    }
+    .background-img {
+      position: absolute;
+    }
+
+    .round {
+      bottom: 25px;
+      left: -150px;
+      z-index: -1;
+      width: 300px;
+    }
+    .line {
+      right: 0;
+      top: -15px;
+      width: 350px;
+      z-index: -1;
+    }
+   
+    </style>
+</head>
+<body>
+  <img class="background-img round" src="./background-1.png" alt="" srcset="">
+  <img class="background-img line" src="./background-2.png" alt="" srcset="">
+    <div class="banner">We help 申請書</div>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                一、兩百字內的個人簡介。
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                我的名字叫做張常謙，過去曾從事社會工作，因嚮往科技業的發展與自由而轉職。目前已在一家企業擔任前端工程師，因基礎底子不好，所以常覺得工作的範疇超過能力，希望能透過這次課程，能從基本開始扎根學習。
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                二、為了成為軟體工程師，曾做過什麼努力？
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    曾經參加<strong>資策會的全端課程</strong>，四個月的課程內容包含前、後端以及MIS，過程中一度很想放棄，為了讓自己不要半途而廢，甚至接下了組長一職，最終與整個團隊一起完成了一個團體專案。<br>
+                    然而畢業進到公司後，深感自己的前端技能還是很薄弱，因此有<strong>購買六角學院的線上課程</strong>-切版直播班，利用下班及假日的時間，跟著課程逐一練習切版，最終在工作中可以獨當一面自己切版。<br>
+                    切版作品: <a href="https://codepen.io/ccchian/pen/OJQwKPo">切版作品一</a>&nbsp;、&nbsp;<a href="https://codepen.io/ccchian/pen/XWZoWeq">切版作品二</a><br>
+                    現階段的專案時程短，主管期待我除了能負責前端，也可以跟客戶談需求。然而因本身經驗不多，所以需求常會來來回回的調整，為了能如期完成，我也努力的日夜工作，最終產出了一個 <a href="https://www.uloan.ph/Login">手機版本的C端網頁</a> <span style="color: #ffb307;">(請以手機模式開啟)</span><br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    三、如果參與這個計畫，會怎麼安排學習時間？
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    目前已跟公司提出離職申請，但因目前專案在收尾階段，組內人力短缺，因此預計於九月底才能完成專案、交接、離職。<br>
+                    第一階段-網站開發基礎訓練:此階段會有部分時間與在職時間重疊，會透過下班的時間與周末完成每日進度報告以及每週作業，每週一的線上會議，會於每週一下班後聽回放了解。<br>
+                    第二、第三階段-旅遊電商網站開發、個人專案開發、求職準備:此階段已可以<strong>全職投入學習</strong>。除了週一的線上會議，也想參加週五的討論會議。<br>
+                </div>
+              </div>
+            </div>
+           
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingfour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                    四、是否有想要加入的軟體公司？為什麼想加入該公司？
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    趨勢科技，或是外商公司。喜歡較為自由風氣的公司，例如能自主選擇遠端工作或進辦公室，公司的整體氛圍也很鼓勵同仁學習進修，公司也有多樣福利支持同仁提升工作及生活品質的措施。這些都是我很欣賞的公司特質。
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    五、請描述一件你曾經碰到最困難的事情，如何克服？
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    現階段的專案，內容很多，前端的畫面要如何刻、剛開始完全沒有頭緒。後來先上網找其他相似的網站，根據流程將大專案拆分，一次完成一個版面與功能。遇到問題時，先上網找，若仍沒有頭緒，請教同事或從事此產業的朋友是否能給我一些關鍵字。透過關鍵字做查詢;查詢時先以官方文件或是有範例程式碼的文件為主，後續再改為期待的樣式。
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    六、關於這份申請網頁，請分享一個你開發時的技術心得。
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    當初進公司時，連html的架構都還是有些模糊，然而當這次為了做這份申請網頁，我一邊瀏覽網頁，一邊將各個元素拼湊成一個版面。改來改去最終選定了手風琴效果搭配簡潔的圖片。<br>
+                    在把這些想法實做出來的過程中，其實很感動，沒有想到有一天我可以做出自己想要的樣式。學習的一路上雖然大多時候很挫折，跌跌撞撞常常沒有頭緒，很多基本的概念都不知道，
+                    沒有想到反而是在這次的申請中，讓我也再次檢視了過去所學，原來自己已經有所成長，雖然還是有很多很多的技術債要補，但能有這些小小的成就感，真的很讓人高興。
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSev">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSev" aria-expanded="false" aria-controls="collapseSev">
+                    七、其他想要對我們說的事情？
+                  </button>
+                </h2>
+                <div id="collapseSev" class="accordion-collapse collapse" aria-labelledby="headingSev" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    謝謝老師開辦這次的扶持計畫，很期待跟同學一起學習，打好基礎知識。
+                  </div>
+                </div>
+              </div>
+          </div>      
+    </div>
+</body>
+</html>
